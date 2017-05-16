@@ -1,0 +1,212 @@
+#global {
+	margin: 0px 10%;
+	border: 2px #EEEEEE solid;
+	min-width: 1000px;
+}
+
+body {
+	margin: 0px auto;
+	padding: 5px;
+}
+
+#top1 {
+	height: 100px;
+}
+
+#big {
+	float: left;
+	display: block;
+	color: #FB8276;
+	font-size: 50px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+#small {
+	float: left;
+	dispaly: block;
+	margin-top: 30px;
+	margin-left: 60px;
+	color: #FB8276;
+	font-size: 35px;
+}
+
+#menu {
+	background-color: #f3eeee;
+	border-top: 3px solid #f3eeee;
+	border-bottom: 3px solid #f3eeee;
+	height: 50px;
+	padding: 10px;
+}
+
+#menu ul, #bot ul {
+	list-style: none;
+	margin: 5px 40px;
+}
+
+#menu ul li, #bot ul li {
+	float: left;
+	display: inline;
+}
+
+#left {
+	float: left;
+	width: 21%;
+	height: 600px;
+	background-color: #f3eeee;
+}
+
+#right {
+	float: left;
+	height: 600px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 78.49%;
+	border: 2px #717171 solid;
+	border-bottom: none;
+}
+
+#right h5 {
+	text-align: center;
+	position: relative;
+	top: -40px;
+	font-size: 30px;
+}
+
+#right table {
+	position: relative;
+	top: -95px;
+	cellpadding: 15px;
+	cellspacing: 10px;
+	font-size: 15px;
+}
+
+#right table tr {
+	valign: top;
+}
+
+#right img {
+	width: 140px;
+	height: 200px;
+}
+
+#left #top {
+	background-color: #baf2e1;
+	padding: 15px 8px;
+}
+
+#left #top button {
+	width: 3px;
+}
+
+#left #medium {
+	margin: 30px;
+}
+
+#left h5 {
+	text-align: center;
+	margin-bottom: 10px;
+	color: blue;
+}
+
+#left #btn {
+	/* position: relative;
+	top: 10px;
+	left: 143px; */
+	margin-left:80%;
+	margin-top:10px;
+	width: 50px;
+	height: 25px;
+}
+
+#left h4 {
+	background-color: blue;
+	text-align: center;
+}
+
+#left #bottom {
+	margin-top: 50px;
+}
+
+#left ul {
+	list-style: none;
+	margin-left: 0px;
+}
+
+#left ul li {
+	margin-left: 0px;
+	position: relative;
+	left: -25px;
+	font-size: 16px;
+}
+
+a:link {
+	color: #A959A9;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4E93D7;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+a:active {
+	color: blue;
+}
+
+#bot {
+	clear: both;
+	height: 100px;
+	border-top: 2px #717171 solid;
+}
+
+#bot ul li {
+	position: relative;
+	left: 280px;
+	top: 20px;
+}
+
+#bot span {
+	position: relative;
+	top: 20px;
+	left: 400px;
+	font-size: 16px;
+}
+
+#detail {
+	position: relative;
+	top: 100px;
+}
+
+#exit {
+	position: relative;
+	top: 10px;
+	left: 100px;
+}
+
+#right h4 {
+	text-align: center;
+	margin-top: 4px;
+	color: blue;
+}
+
+#right #cart {
+	margin-top:100px;
+	text-align:center;
+}
+
+#right #cartCar {
+	font-size: 20px;
+	width: 80%;
+}
+
+#right #total{
+	margin-top:-100px;
+	width:80%;
+	margin-left:10%;
+}
